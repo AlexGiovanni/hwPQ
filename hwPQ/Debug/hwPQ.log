@@ -1,0 +1,17 @@
+﻿  main (1).cpp
+c:\users\alexis\documents\hwpq\hwpq\main (1).cpp(21): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexis\documents\hwpq\hwpq\main (1).cpp(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(186): warning C4018: '<=': signed/unsigned mismatch
+  c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(182): note: while compiling class template member function 'void MinPriorityQueue<char>::bubble_down(void)'
+  c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(80): note: see reference to function template instantiation 'void MinPriorityQueue<char>::bubble_down(void)' being compiled
+  c:\users\alexis\documents\hwpq\hwpq\main (1).cpp(363): note: see reference to class template instantiation 'MinPriorityQueue<char>' being compiled
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(186): warning C4018: '>': signed/unsigned mismatch
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(140): warning C4018: '<=': signed/unsigned mismatch
+  c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(138): note: while compiling class template member function 'bool MinPriorityQueue<char>::children_violation(int)'
+  c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(184): note: see reference to function template instantiation 'bool MinPriorityQueue<char>::children_violation(int)' being compiled
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(147): warning C4018: '<=': signed/unsigned mismatch
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(147): warning C4018: '>': signed/unsigned mismatch
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(153): warning C4018: '>': signed/unsigned mismatch
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(157): warning C4715: 'MinPriorityQueue<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::children_violation': not all control paths return a value
+c:\users\alexis\documents\hwpq\hwpq\minpriorityqueue.h(157): warning C4715: 'MinPriorityQueue<char>::children_violation': not all control paths return a value
+  hwPQ.vcxproj -> C:\Users\Alexis\Documents\hwPQ\Debug\hwPQ.exe
